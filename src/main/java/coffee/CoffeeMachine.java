@@ -12,5 +12,4 @@ public class CoffeeMachine {
 
         drinkMaker.sendCommand("T::");
     }
-
 }
