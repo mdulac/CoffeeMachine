@@ -1,2 +1,2 @@
 # CoffeeMachine
-Empty projet for start Coffee machine kata
+My implementation of Coffee Machine kata using Java 8
