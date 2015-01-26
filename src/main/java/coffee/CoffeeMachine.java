@@ -24,7 +24,7 @@ public class CoffeeMachine {
         drinkMaker.sendCommand(command);
 
         if (!command.startsWith(ERROR_PREFIX)) {
-            drinksOrdered.merge(order.getDrink(), 1, (count, none) -> count + 1);
+            drinksOrdered.merge(order.getDrink(), 1, Integer::sum);
         }
     }
 
